@@ -1,324 +1,246 @@
-🚀 Kissan App – Enterprise Agriculture SaaS Platform
+<p align="center"> A unified agriculture SaaS ecosystem enabling Farmers, Vendors, Buyers, Hospitals, Consultants & Government bodies to collaborate, trade, diagnose problems, and streamline agri-operations with real-time analytics, AI, marketplace, labour hiring, and communication tools. </p> <br/> <p align="center"> <img src="https://img.shields.io/badge/Status-In_Development-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Architecture-Microservices-green?style=for-the-badge" /> <img src="https://img.shields.io/badge/TechStack-NestJS%20%7C%20NextJS%2014%20%7C%20PostgreSQL-orange?style=for-the-badge" /> <img src="https://img.shields.io/badge/AI-Powered-purple?style=for-the-badge" /> </p>
+📌 Table of Contents
 
-Kissan App is an enterprise-level Agriculture SaaS platform that connects Farmers, Vendors, Buyers, Consultants, Hospitals, and Government bodies into one unified ecosystem.
-This platform enables farmers to buy feeds, sell crops, track crop health, hire labour, get AI-based solutions, chat with groups, and vendors to sell & purchase agricultural goods, manage prices, and analyze market trends.
+Overview
 
-🌾 Key Highlights
+Core Value Proposition
 
-Multi-role system: Farmer, Vendor, Admin
+Features
 
-Real-time price analytics & charts
-
-Vendor bidding & negotiations
-
-AI-powered disease detection & crop problem solving
-
-Farmer community with chat groups & notes
-
-Farmers can sell harvest, and vendors can show interest after quality check
-
-Nearby search for hospitals, consultants, buyers, vendors
-
-Fully scalable enterprise-grade tech stack
-
-📱 Core Features
-👨‍🌾 Features for Farmers
-✅ Marketplace
-
-Purchase cattle feed, prawn feed, crab feed, rice, wheat, dal, etc.
-
-Compare vendors (price, quality, rating)
-
-Real-time charts showing price fluctuation
-
-Vendors can bid on bulk orders
-
-🎥 Problem Support System
-
-Share problems via video, image, text, PDF
-
-Auto-suggestion:
-
-Available videos
-
-Available blogs
-
-Ask AI (multi-format support)
-
-🏥 Nearby Search
-
-Hospitals
-
-Consultants
-
-Veterinary doctors
-
-Government offices
-
-Buyers
+Farmers
 
 Vendors
-Filters: distance, best price, rating, product type
 
-💬 Chat System
+Admin
 
-Group chat (Farmer communities)
+System Architecture
 
-Private chat
+Tech Stack
 
-Share images, videos, docs
+Module Breakdown
 
-Real-time messaging (Socket.io)
+Database Architecture
 
-📊 Farmer Dashboard
+API Structure
 
-Crop health monitoring
+Environment Variables
 
-Expected profit/loss
+Installation Guide
+
+Microservices Structure
+
+CI/CD Pipeline
+
+Scalability & Performance Strategy
+
+Roadmap
+
+License
+
+🚀 Overview
+
+Kissan App is an enterprise-grade agriculture SaaS platform designed to digitalize the entire farming ecosystem.
+It provides:
+
+A multi-vendor B2B + B2C marketplace
+
+A farmer selling ecosystem with quality checks
+
+AI-powered disease diagnosis from crops
+
+Labour hiring system
+
+Real-time price analytics
+
+Geo-based search engine
+
+Real-time chat system
+
+This platform is built with scalable microservices, supports multi-region deployment, and uses event-driven architecture for real-time operations.
+
+🎯 Core Value Proposition
+✅ For Farmers
+
+A complete digital assistant + marketplace + community + AI support + selling ecosystem.
+
+✅ For Vendors
+
+A platform to sell products, discover farmers, bid for harvest, analyse pricing trends & negotiate purchases.
+
+✅ For Admin & Govt
+
+Regulate, verify, track, monitor analytics, and improve agriculture supply chain with data visibility.
+
+🌾 Features
+👨‍🌾 1. Farmer Features
+🔹 Marketplace
+
+Buy cattle feed, grain feed, aquaculture feed, fertilizers
+
+Vendor comparison: price, rating, distance
+
+Real-time price analytics
+
+Vendor bidding for bulk orders
+
+🔹 Problem Diagnosis
+
+Upload Image / Video / Audio / Text / PDF
+
+Smart auto-suggest videos + blogs
+
+“Ask AI” feature with multimodal support
+
+AI-powered plant disease detection
+
+🔹 Nearby Search
+
+Hospitals, consultants, veterinary
+
+Buyers, government centers, vendors
+
+Filters: rating, best price, distance, type
+
+🔹 Real-Time Chat
+
+Community groups
+
+1:1 private chat
+
+Share media
+
+Read receipts, online presence
+
+🔹 Crop Dashboard
+
+Growth analytics
+
+Profit/Loss prediction
 
 Weather alerts
 
-Growth stage reports
+Supply/demand trends
 
-Expenses tracking
+🔹 Notes & Tasks
 
-Purchased item history
+Daily work tracking
 
-🗒 Notes App
+Reminders
 
-Task management
+Notes with media
 
-Daily reminders
+Offline-first support
 
-Notes with images/videos
+🔹 Labour Hiring Module
 
-Work tracking
+Daily wage hiring
 
-👷 Hire Labour
-
-Daily wage workers
-
-Monthly basis workers
+Monthly hiring
 
 Worker profiles
 
-Apply & chat system
+Chat + application tracking
 
-🌾 Sell Produce
+🔹 Sell Harvest
 
 Workflow:
 
-Farmer uploads product (images/videos)
+Upload product + quality video
 
-Quality check team verifies
+Quality team verifies
 
-If passed → listing activated
+If passed → product goes live
 
-Vendors view → test report → show interest
+Vendors show interest
 
-Farmer dashboard shows:
+Farmer sees Interested Vendors Count
 
-Interested vendors
+Price negotiation
 
-Pending vendor checks
+Deal confirmation
 
-Approved vendors
+🛒 2. Vendor Features
 
-Negotiation → final price → purchase
+Vendor business profile
 
-🛒 Features for Vendors
-🛍 Vendor Marketplace
+Add/manage products, pricing, stock
 
-Add and manage products (maize, rice, fertilizers, feeds)
+Sell products to farmers
 
-Set dynamic pricing
-
-Stock management
-
-Discount system
-
-📥 Purchase from Farmers
-
-View farmer-listed crops
-
-Quality check preview
-
-Show interest
-
-Chat with farmer
-
-Negotiate final price
-
-Only after both agree → purchase final
-
-📈 Vendor Dashboard
-
-Market price analytics
-
-Region-wise supply/demand
-
-Active interests
-
-Bidding analytics
-
-Bestseller products
-
-🛡 Admin Panel
-
-Manage all users
-
-Approve/Reject vendor & farmer KYC
-
-Manage marketplace products
-
-Quality check management
+Purchase crops from farmers
 
 Price analytics
 
-Review AI answers
+Negotiation system
 
-Fraud detection
+Interest-based buying model
 
-Complaints system
+Vendor dashboard
 
-Revenue analytics dashboard
+🛡 3. Admin Features
 
-⚙ Tech Stack (Enterprise-Grade)
+Super admin panel
+
+Approve/Reject KYC (both farmer + vendor)
+
+Handle quality checks
+
+Marketplace approvals
+
+Dynamic price controls
+
+AI response moderation
+
+Fraud detection engine
+
+Revenue dashboard
+
+Complaints management
+🧰 Tech Stack
 Frontend
 
-Next.js 14 (App Router)
+Next.js 14
 
 React 19
 
-Tailwind CSS / Shadcn UI
+Tailwind + Shadcn
 
-Zustand / Redux (optional)
-
-Mapbox / Google Maps
+Zustand / Redux
 
 Recharts / ECharts
 
+Mapbox / Google Maps
+
 Backend
 
-NestJS (Node.js + TypeScript)
+NestJS
 
-PostgreSQL / MySQL
+PostgreSQL
 
-Redis (cache, notifications, chat)
+Redis (cache, chats, notifications)
+
+ElasticSearch (search)
 
 Kafka / RabbitMQ (events)
 
-ElasticSearch (advanced search)
-
 MinIO / AWS S3 (file storage)
 
-Socket.io (real-time chat)
+Socket.io (real-time)
 
 AI
 
-Vision + Text model for:
+Vision model (image/video analysis)
 
-Plant disease detection
+NLP model for diagnosis
 
-Problem analysis
+Recommendation engine
 
-Recommendation system
+DevOps
 
-📡 API Modules (Backend Overview)
-Auth Module
+Docker
 
-Login (OTP / Password)
+Kubernetes
 
-Register Farmer
+CI/CD (GitHub Actions)
 
-Register Vendor
-
-KYC Upload
-
-User Roles
-
-Marketplace Module
-
-Products
-
-Vendor product listing
-
-Farmer purchasing
-
-Price Analytics Module
-
-Historical price
-
-Trending products
-
-Bidding analytics
-
-Problem Support Module
-
-Submit issue
-
-Blogs
-
-Videos
-
-AI Search
-
-Chat Module
-
-Create group
-
-Private messages
-
-Media upload
-
-Job Module
-
-Post job
-
-Apply job
-
-Worker profiles
-
-Sell Module
-
-Farmer listing
-
-Quality check
-
-Vendor interest
-
-Negotiation system
-
-Admin Module
-
-Users
-
-Vendors
-
-Crops
-
-Reports
-
-Analytics
-
-🚀 Future Improvements
-
-Mobile App (React Native)
-
-IoT sensor integration
-
-Weather prediction model
-
-Blockchain-based crop traceability
-
-Multiple regional languages
-
-Offline-first PWA mode
-
-📝 License
-
-Proprietary — All rights reserved.
-
-🤝 Contribute
-
-Feel free to open issues or submit pull requests.
+Nginx load balancing
